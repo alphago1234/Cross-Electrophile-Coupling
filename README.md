@@ -27,14 +27,15 @@ git clone https://github.com/alphago1234/Cross-Electrophile-Coupling.git
 cd Cross-Electrophile-Coupling
 pip install -r requirements.txt
 
-## 🚀 Usage Guide
+## 📊 Model Evaluation
 
-1. **Preprocess Ligands** – `notebooks/Remove Ring.ipynb`  
-2. **Generate Features** – `notebooks/Generating Features.ipynb`  
-3. **Train Model** – `notebooks/ML_DFT_Model_Training.ipynb`  
-4. **Run Threshold Analysis** – `notebooks/Ligand Analysis Thresholding.ipynb`  
-5. **Generate Ligands** – `combinatorial_design/PA2B_Generator.py`  
-6. **Predict & Screen** – Apply XGBoost model and select ligands above threshold
+| Model             | Avg R² | Notes                                  |
+|------------------|--------|----------------------------------------|
+| XGBoost          | 0.86   | Final model used for predictions       |
+| Random Forest    | ~0.5   | Varies by descriptor                   |
+| Gradient Boosting| ~0.6   | Sensitive to tuning                    |
+| Deep Learning    | ~0.7   | Accurate but computationally heavy     |
+
 
 
 
