@@ -27,9 +27,6 @@ git clone https://github.com/alphago1234/Cross-Electrophile-Coupling.git
 cd Cross-Electrophile-Coupling
 pip install -r requirements.txt
 
-
----
-
 ## 🚀 Usage Guide
 
 1. **Preprocess Ligands** – `notebooks/Remove Ring.ipynb`  
