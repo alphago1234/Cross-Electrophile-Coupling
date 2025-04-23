@@ -30,9 +30,6 @@ pip install -r requirements.txt
 
 ---
 
-### ✅ Step 5: How to Use
-
-```markdown
 ## 🚀 Usage Guide
 
 1. **Preprocess Ligands** – `notebooks/Remove Ring.ipynb`  
