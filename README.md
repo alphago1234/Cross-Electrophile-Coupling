@@ -27,14 +27,7 @@ git clone https://github.com/alphago1234/Cross-Electrophile-Coupling.git
 cd Cross-Electrophile-Coupling
 pip install -r requirements.txt
 
-## 📊 Model Evaluation
 
-| Model             | Avg R² | Notes                                  |
-|------------------|--------|----------------------------------------|
-| XGBoost          | 0.86   | Final model used for predictions       |
-| Random Forest    | ~0.5   | Varies by descriptor                   |
-| Gradient Boosting| ~0.6   | Sensitive to tuning                    |
-| Deep Learning    | ~0.7   | Accurate but computationally heavy     |
 
 
 
