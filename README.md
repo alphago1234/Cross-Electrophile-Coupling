@@ -28,5 +28,19 @@ cd Cross-Electrophile-Coupling
 pip install -r requirements.txt
 
 
+---
+
+### ✅ Step 5: How to Use
+
+```markdown
+## 🚀 Usage Guide
+
+1. **Preprocess Ligands** – `notebooks/Remove Ring.ipynb`  
+2. **Generate Features** – `notebooks/Generating Features.ipynb`  
+3. **Train Model** – `notebooks/ML_DFT_Model_Training.ipynb`  
+4. **Run Threshold Analysis** – `notebooks/Ligand Analysis Thresholding.ipynb`  
+5. **Generate Ligands** – `combinatorial_design/PA2B_Generator.py`  
+6. **Predict & Screen** – Apply XGBoost model and select ligands above threshold
+
 
 
