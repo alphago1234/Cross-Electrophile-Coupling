@@ -20,6 +20,12 @@ This repository presents a machine learning-based framework for discovering high
 - `analysis/` – Scripts for feature threshold evaluation  
 
 
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/alphago1234/Cross-Electrophile-Coupling.git
+cd Cross-Electrophile-Coupling
+pip install -r requirements.txt
 
 
 
